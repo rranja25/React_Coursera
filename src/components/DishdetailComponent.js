@@ -10,7 +10,7 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
         const dishId = <RenderDish dish={props.dish} />
         const commentDish = <RenderComments comments ={(props.dish.comments)} />
         return (
-            <div class="container">
+            <div className="container">
             <div className='row'>
                 {dishId}
                 {commentDish}
