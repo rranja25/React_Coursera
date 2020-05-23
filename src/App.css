@@ -31,10 +31,16 @@ address{
 .navbar-dark {
   background-color: #512DA8;
 }
-.navbar-brand {
+.nav-link {
+  margin-left: 20px;
   color: floralwhite;
 }
 
 .navbar {
   margin-bottom: 0px;
 }
+
+.navbar-nav li  {
+  list-style-type:none;
+}
+
